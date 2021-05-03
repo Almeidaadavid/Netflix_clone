@@ -26,6 +26,7 @@ header .logo {
     color: var(--vermelho);
     font-family: 'Arial Black', Times;
     font-size: 40px;
+    cursor: pointer;
 }
 
 header nav a {
@@ -39,6 +40,7 @@ header nav a:hover {
 }
 
 /*filme principal*/
+
 .filme-principal {
     font-size: 18px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.100% )), url("../img/lucifer-logo.jpg");
@@ -54,9 +56,33 @@ header nav a:hover {
 }
 
 .descricao{
+    margin-top: 10px;
     margin-bottom: 40px;
 }
 
 .titulo {
+    margin-top: 15%;
     font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao {
+    background-color:rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+}
+
+.botao i {
+    margin-right: 8px;
 }
